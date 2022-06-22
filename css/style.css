@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    width: 600px;
+    height: 700px;
+    background-color: #222222;
+    border: 10px solid #828282;
+    border-radius: 50px;
+    margin: 30px auto;
+}
+
+.time {
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: end;
+    margin: 50px 48px 0 0;
+}   
+
+.img-dispslay {
+    background-image: url(../assets/img/entryWatch.png);
+    width: 472px;
+    height: 472px;
+    margin: auto;                     
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+
+.year {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.line {
+    width: 230px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 1px;
+    margin: 15px auto 40px;
+}
