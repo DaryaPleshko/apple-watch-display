@@ -15,26 +15,30 @@
     margin: 30px auto;
 }
 
-.time {
+#clock {
     font-size: 30px;
     color: #FFFFFF;
     text-align: end;
     margin: 50px 48px 0 0;
-}   
+}
 
 .img-dispslay {
     background-image: url(../assets/img/entryWatch.png);
     width: 472px;
     height: 472px;
-    margin: auto;                     
+    margin: auto;
     background-repeat: no-repeat;
     margin: 20px auto;
 }
 
-.year {
+.containerDate {
+    display: flex;
+    justify-content: center;
+}
+
+#text, #year {
     font-size: 20px;
     color: #FFFFFF;
-    text-align: center;
 }
 
 .line {
