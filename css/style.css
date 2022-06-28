@@ -15,7 +15,7 @@
     margin: 30px auto;
 }
 
-#clock {
+.clock {
     font-size: 30px;
     color: #FFFFFF;
     text-align: end;
@@ -31,12 +31,12 @@
     margin: 20px auto;
 }
 
-.containerDate {
+.container-date {
     display: flex;
     justify-content: center;
 }
 
-#text, #year {
+.text, .year {
     font-size: 20px;
     color: #FFFFFF;
 }

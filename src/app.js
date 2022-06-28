@@ -1,17 +1,18 @@
 function clockTimer() {
-    let date = new Date();
-    let time = [date.getHours(), date.getMinutes()];
-    let year = date.getFullYear();
+    const date = new Date();
 
-    if (time[0] < 10) { time[0] = "0" + time[0]; }
-    if (time[1] < 10) { time[1] = "0" + time[1]; }
-    let current_time = [time[0], time[1]].join(':');
+    let time = [date.getHours(), date.getMinutes(), date.getFullYear()];
 
-    let clock = document.getElementById("clock");
-    let yearInRealLife = document.getElementById("year");
+
+    if (time[0] < 10) time[0] = `0${time[0]}`;
+    if (time[1] < 10) time[1] = `0${time[1]}`;
+    const current_time = [time[0], time[1]].join(':');
+
+    const clock = document.querySelector(".clock");
+    const yearInRealLife = document.querySelector(".year");
 
     clock.innerHTML = current_time;
-    yearInRealLife.innerHTML = year;
+    yearInRealLife.innerHTML = time[2];
 
     setTimeout("clockTimer()", 1000);
 }
